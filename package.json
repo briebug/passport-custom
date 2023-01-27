@@ -1,7 +1,7 @@
 {
-  "name": "passport-custom",
-  "version": "1.2.0",
-  "description": "Custom authentication strategy for Passport.",
+  "name": "@briebug/passport-custom",
+  "version": "1.3.0",
+  "description": "Custom authentication strategy for Passport (supports @nestjs/passport).",
   "keywords": [
     "passport",
     "custom",
@@ -12,7 +12,7 @@
   "author": "Mike Bell <mbell8903@yahoo.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mbell8903/passport-custom.git"
+    "url": "git://github.com/briebug/passport-custom.git"
   },
   "bugs": {
     "url": "http://github.com/mbell8903/passport-custom/issues"

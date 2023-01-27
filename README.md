@@ -35,6 +35,7 @@ import passportCustom from 'passport-custom';
 const CustomStrategy = passportCustom.Strategy;
 
 passport.use('strategy-name', new CustomStrategy(
+  {},
   function(req, callback) {
     // Do your custom user finding logic here, or set to false based on req object
     callback(null, user);
